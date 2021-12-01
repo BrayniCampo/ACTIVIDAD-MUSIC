@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    background-image: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+    padding: 21%;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 11em;
+    margin-top: -8% ;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 11%;
+    /* margin-top: -8%; */
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.espacio {
+    background-color: white;
+    padding: 5%;
+}
+
+.imagen {
+    float: left;
+    margin-left: -20%;
+}
+
+.texto {
+    float: left;
+    width: 550px;
+    margin: 0px 80px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.te1 {
+    font-size: 37%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.espacio2 {
+    padding: 60px 0;
+}
+
+
+.img4{
+    width: 100%;
+}
+
+.parrafo3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+}
+.imagen3{
+    width: 34%;
+    float: left;
+    margin-left: 15%;
+}
+.te2 {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.raptis{
+    background: url("../images/john-raptis.png") 0 -200px ;
+
+
+
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: #FD4C5C;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 9px 28px;
+    border:0px;
+    margin-top: 5%;
+}
+
+.derecha{
+    width: 34%;
+    float: right;
+    margin: 0px 80px 0px 0px;
+}
+
+.tilin {
+    float: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10%;
+    margin-left: 18%;
+    
+}
+
+.tilin2{
+    float: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.tamañoletra{
+    font-size:1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.otro{
+    
+    color: white;
+    font-size: 50px;
+    
+}
+
+.espacio4{
+    width:35%;
+    float: right;
+    margin:10% 10% 10% 0;
+}
+
+.te3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.degradado{
+    background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.degradado1{
+    background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
+footer{
+    background-color: #fd4c5c;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.columnas{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.tamaño{
+    margin: 0 90px;
+    padding: 20px 0;
+}
+
+.correo{
+    float: right;
+}
+
+
+
+@media (max-width: 750px){
+    
+    header h1{
+        font-size: 5rem;
+        margin-left: 8%;
+    
+    }
+    h2{
+        font-size: 2rem;
+    }
+
+    .tamañoletra{
+        font-size: 9px;
+    }
+    .te2{
+        font-size: 9px;
+    }
+
+    .tilin2{
+        float: none;
+    }
+
+    button{
+        font-size: 13px;
+    }
+    
+    .te3{
+        font-size: 15px;
+    }
+
+    .otro{
+        font-size: 2rem;
+    }
+    
+    
+}
+
+@media(max-width: 550px){
+    header h1{
+        font-size: 57px;
+        margin-top: -7%;
+    }
+
+    .derecha{
+        width: 64%;
+    }
+
+    .tamañoletra{
+        font-size: 12px;
+    }
+    .tilin{
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+
+    .imagen3{
+        width: 64%;
+    }
+
+    .espacio2{
+        padding: 1%;
+    }
+    
+}
